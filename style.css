@@ -1,0 +1,340 @@
+*{margin: 0px;
+        padding: 0px;
+      border:0px;
+      font-family: Arial, Helvetica, sans-serif;}
+#navbar1{display: flex;
+        justify-content: space-between;
+        width:100% ;
+        background-color: pink;
+      
+      }
+.navitems{display: flex;
+          justify-content: space-between;
+          width:100% ;
+          align-content: center;
+          
+
+      }
+#nav2it{padding-top:15px ;
+         }
+
+
+
+.navt{  color:white;
+        font-weight: 500;
+        justify-content: space-between;
+        margin-right:30px ;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-top:20px ;
+        align-content: center;
+        font-weight: 600;
+        
+        }
+
+.navt:hover {background-color:#ffbaba;
+              color:hotpink;}
+
+#line{border: 1px solid rgba(128, 128, 128, 0.281);}
+
+.container{position: relative;
+      width:100%;
+      height:100vh ;}
+#Home{background-color: palevioletred;}
+
+ #head{font-family: Arial, Helvetica, sans-serif;
+      font-size:60px ;
+      font-weight:600px ;
+      padding:190px 40px ;
+      color:rgb(245, 245, 245);} 
+
+
+
+
+.image{display: flex;
+     position: absolute;
+     bottom:90px;   
+     left:900px;
+     bottom: 80px;
+     transition-duration:  left 3s ;
+     }
+
+.img{position: absolute;
+      left:0px ;
+      bottom:0px;
+      transform: translate(-22%);
+      transition: left 4s;
+      
+    }
+
+.image:hover #two{left:-90px ;
+                  
+              }
+
+.image:hover #one{left:40px ;
+                   }
+      
+#headabt{font-size:70px;
+         font-weight: 600;
+         font-family: Arial, Helvetica, sans-serif;
+        padding:40px 470px 10px 470px;
+        color:rgb(55, 55, 55) ;}
+
+#headsec{font-size:20px;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+      align-content: center;
+      text-align: center;
+      justify-content: center;
+      color:rgb(255, 255, 255) ;
+      
+     }
+
+#background-video {
+      width:60%;
+      height:auto;
+      
+      object-fit:contain;
+      margin-left:-50px ;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+    }
+
+.grid{display: grid;
+         grid-template-columns:repeat(2,50%) ;
+         }
+
+.boxpara{padding:30px 80px ;
+        }
+#para{font-size:18px ;
+      font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;}
+
+
+
+#imgaboutus{border:1px solid gainsboro ;
+     width:25%;
+     height:250px ;
+     margin-left:90px ;
+     margin-bottom:40px ;
+     border-radius:25px ;
+     margin-top:30px ;}
+
+#imgaboutus:hover img{scale: 1.1 ;}
+
+.box img{height:100% ;
+         width:100%;
+         border-radius:15px ;}
+
+#imgaboutus1{border:1px solid gainsboro ;
+      width:25%;
+      height:250px ;
+      margin-left:470px ;
+      margin-bottom:40px ;
+      margin-top:-292px ;
+      border-radius:25px ;}
+#imgaboutus1:hover img{scale: 1.1 ;}
+
+#imgaboutus2{border:1px solid gainsboro ;
+            width:25%;
+            height:250px ;
+            margin-left:850px ;
+            margin-bottom:40px ;
+            margin-top:-292px ;
+            border-radius:25px ;}
+#imgaboutus2:hover img{scale: 1.1 ;}
+
+.dot {            text-align: center;
+                  height:120px;
+                  width:120px;
+                  margin:20px 40px ;
+                  background-color: #bbb;
+                  border-radius: 50%;
+                  display: inline-block;
+                }
+          
+#menu{font-size:90px ;}       
+#combo{font-size:20px ;
+      text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+    padding-top:30px ;
+    padding-bottom:20px ;
+   color:rgb(55, 55, 55) ;} 
+   
+   
+#largebox{border:1px solid gainsboro ;
+           width:1000px;
+            height:225px ;
+            margin:20px 130px ;
+            border-radius:15px ;
+           background-color:pink;}
+
+
+#h3{
+      font-size:20px ;
+      font-weight:500px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(55, 55, 55);
+    margin-top:30px ;
+
+    margin-bottom:15px ;}
+
+.dot img{width:100% ;
+         height:100% ;
+         
+      }     
+
+.dot{background-image: linear-gradient(to top right,pink,palevioletred);
+    }
+
+.dot:hover{opacity:1;
+           background-image: linear-gradient(to top right ,orchid,hotpink) ;}
+     
+
+.box1 img{width:100% ;
+          height:250px ;
+          border-radius:15px ;}
+
+.box1 img{width:100% ;
+            height:75% ;
+            border-radius:15px ;}
+
+
+#orderbox{border:1px solid gainsboro ;
+                  width:28%;
+                  height:350px ;
+                  margin-left:70px ;
+                  margin-bottom:40px ;
+                  border-radius:25px ;
+                  margin-top:30px ;
+                  
+                  }
+
+#orderbox1{border:1px solid gainsboro ;
+                        width:28%;
+                        height:350px ;
+                        margin-left:455px ;
+                        margin-bottom:40px ;
+                        border-radius:25px ;
+                        margin-top:-393px ;
+}
+
+#orderbox2{border:1px solid gainsboro ;
+      width:28%;
+      height:350px ;
+      margin-left:840px ;
+      margin-bottom:40px ;
+      border-radius:25px ;
+      margin-top:-393px ;
+}
+                          
+
+.style{font-family: Arial, Helvetica, sans-serif;
+       color:rgb(55, 55, 55) ;}
+
+#grid3{display: flex;
+       justify-content: space-between;
+       width:140% ;
+       font-weight: 700px;
+       }
+
+#but2{width:100px ;
+      height:30px ;
+      border-radius: 18px;
+      background-color: green;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      font-size: medium;
+      color: whitesmoke;
+      right:20px;
+      box-shadow: 5px 5px 5px 5px rgb(231, 240, 243);
+}
+   
+#Reviewbox{border:1px solid gainsboro ;
+           width:40% ;
+           height:500px ;
+           background-image:linear-gradient(to top right,rgb(237, 161, 251) ,rgb(231, 58, 176) ) ;
+           border-radius:40px ;
+           margin-left:50px ;
+           margin:40px ;
+      }
+.whitebox{border:1px solid gainsboro ;
+          align-items: center;
+          width:70%;
+          height:85px ;
+          background-color: azure;
+          margin:30px ;
+          border-radius:20px ;
+          margin-left:80px ;
+          
+          }
+.RC{display:flex}     
+#form{border: 1px solid gainsboro;
+      padding-left:40px ;
+      padding:20px;
+      margin-right:-20px ;}
+
+
+
+.contactinfo{display: flex;
+      justify-content:center;
+      margin:10px 20px ;
+      align-items: center;
+
+      }
+.icon{width:50px;
+height: 50px;
+border:1px solid white;
+border-radius:50%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin:0px 10px ;
+
+}
+
+html {
+      scroll-behavior: smooth;
+    }
+
+.icon:hover{
+ background-image: linear-gradient(to top left, pink ,hotpink);}
+
+.icon:hover i{color: white;
+       animation:shake 0.75s ;}
+
+@keyframes shake {
+ 10%{transform: rotate(15deg);}
+ 20%{transform: rotate(60deg);}
+ 30%{transform:rotate(15deg);}
+ 10%{transform: rotate(30deg);}
+ 
+}
+
+#Reviewbox{box-shadow:5px 5px 5px 5px rgb(231, 240, 243) ;}
+.whitebox{box-shadow:  2px 2px 2px rgb(231, 240, 243);}
+
+.whitebox:hover {background-image: linear-gradient(to top left, pink ,hotpink);
+      animation:move 0.4s;}
+
+@keyframes move{
+      25%{top:5px;left:5px;}
+      75%{top:-5px;right:-5px;}
+     }
+
+
+#butlast1{border-radius: 10px;height:30px ;width: 65px;
+         scale:1.2;background-color: green;
+          color: aliceblue;}
+
+#butlast2{border-radius: 10px;height:30px ;width: 65px;
+            scale:1.2;background-color: green;
+             color: aliceblue;margin-left:260px ;}
+
+#form{background-image: linear-gradient(to top left, pink ,hotpink);
+      box-shadow:  5px 5px 5px rgb(231, 240, 243);
+      }
